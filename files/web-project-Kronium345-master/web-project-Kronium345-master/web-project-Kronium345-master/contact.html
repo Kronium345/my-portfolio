@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Contact</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" type="image/ico" href="favicon/favicon.ico">
+  <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <header>
+    <h1>Contact</h1>
+    <div id="menuToggler">&#8801;</div>
+    <nav>
+      <ul class="nav__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section>
+    <h2>Important Facts:</h2>
+    <p>Don't worry, we're not too far away for you to contact us. If you want to contact us:</p>
+  </section>
+  <section>
+    <h3>Tel:</h3>
+    <p>0100 252 3456</p>
+  </section>
+  <section>
+    <h3>Email:</h3>
+    <p>abbevillecafe&bites@aol.com</p>
+  </section>
+  <section>
+    <h3>Fax:</h3>
+    <p>0100 363 0490</p>
+  </section>
+  <section>
+    <h3>Address</h3>
+      <p>127 Peckham High St, London SE15 5SL<p>
+  </section>
+
+  <div id="overlay">
+    <form onsubmit="event.preventDefault(); validateForm()">
+      <h4>Contact Us</h4>
+
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Your name">
+      <small class="error"></small>
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" placeholder="Your email">
+      <small class="error"></small>
+
+      <label for="message">Message:</label>
+      <textarea id="message" placeholder="Your message" rows="6"></textarea>
+      <small class="error"></small>
+
+      <div class="center">
+        <input type="submit" value="Send Message">
+        <p id="success"></p>
+      </div>
+    </form>
+  </div>
+
+  <section class="footer">
+    <h2>Social Media</h2>
+    <div class="social">
+      <a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/profile.php?id=100079512331056"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://twitter.com/AbbevilleCafe/"><i class="fab fa-twitter"></i></a>
+    </div>
+    <p class="copyright">
+      Abbeville Cafe & Bites @ 2022
+    </p>
+  </section>
+  <script src="https://kit.fontawesome.com/c9b7d07106.js" crossorigin="anonymous"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
